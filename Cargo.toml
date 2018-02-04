@@ -1,0 +1,12 @@
+[package]
+name = "moneydance"
+version = "0.0.1"
+authors = ["Shan00-Yung Yang <shanyungyang@gmail.com>"]
+
+[dependencies]
+serde = "1.0.8"
+serde_json = "1.0.2"
+serde_derive = "1.0.8"
+error-type = "0.1.2"
+time = "0.1.0"
+uuid = { version = "0.5", features = ["serde", "v4"] }
